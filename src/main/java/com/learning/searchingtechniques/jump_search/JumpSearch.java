@@ -13,6 +13,9 @@ public class JumpSearch {
      * STEP 3: Jump from index 8 to index 12;
      * STEP 4: Since the element at index 12 is greater than 55, we will jump back a step to come to index 8.
      * STEP 5: Perform a linear search from index 8 to get the element 55.
+     *
+     * @param arr of elements
+     * @param elementToBeFind element to be find
      * @return index of the element
      */
     public static int jump_search(int[] arr, int elementToBeFind){
@@ -68,6 +71,5 @@ public class JumpSearch {
         } else {
             System.out.print("Element is present at index " + result);
         }
-
     }
 }
