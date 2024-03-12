@@ -34,9 +34,10 @@ public class recursiveBinarySearch {
 
         // Function call
         int result = recursive_BinarySearch(arr, elementToBeFind, 0, arr.length-1);
-        if (result == -1)
+        if (result == -1) {
             System.out.print("Element is not present in array");
-        else
+        } else {
             System.out.print("Element is present at index " + result);
+        }
     }
 }
